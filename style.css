@@ -1,9 +1,10 @@
 @import url(./media.css);
 
 /* Global */
-root{
+:root{
  --primary-color:red;
- -Contacthighlight:blue;
+ --secondary-color:yellow;
+ --thighlight:blue;
 
 }
 *{
@@ -18,7 +19,7 @@ a{
     color: var(--secondary-color);
 }
 a:hover{
-    color: var(--highlight);
+    color: var(--thighlight);
 }
 /* Main */
 main{
@@ -28,7 +29,7 @@ main{
     margin:auto;
 
     p{
-        color: var(--highlight);
+        color: var(--thighlight);
         
     }
     
